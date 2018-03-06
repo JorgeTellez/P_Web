@@ -1,0 +1,152 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+
+
+
+body{
+	font-family: Arial;
+	font-size: 0.9em; 
+	width: 1040px;
+	height: 1400px;
+	background-image: url("Images/mont.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 1350px 680px;
+	margin:5px 5px 10px 5px;
+}
+
+header,footer{
+	padding: 10px;
+	color:white;
+	background-color: black;
+}
+
+section{
+	margin: 5px;
+    padding: 10px;
+    background-color: lightgrey;
+}
+
+article{
+	margin: 5px;
+    padding: 10px;
+    background-color: black;
+}
+
+h1{
+	color:red;
+	text-align: justify;
+	font-style: oblique;
+	overflow: auto;
+}
+
+h3{
+	text-transform: uppercase;
+	color:white;
+}
+
+
+/*div#primero{
+	width: 600px;
+	height: 350px;
+	overflow: auto;
+	float: left;
+	background-color:grey;
+	border: 2px solid rgb(28, 132, 246) ;
+	margin:55px 50px 50px 20px;
+}
+
+div#segundo{
+	width: 313px;
+	height: 300px;
+	overflow: auto;
+	background-color:rgb(164, 166, 149);
+	border: 2px solid rgb(28, 132, 246) ;
+	margin:55px 50px 50px 0px;
+}
+
+div#tercero{
+	width: 613px;
+	height: 300px;
+	overflow: auto;
+	background-color:rgb(171, 158, 71);
+	border: 2px solid rgb(28, 132, 246) ;
+	margin:55px 50px 50px 250px;
+}
+
+div#cuarto{
+	width: 817px;
+	height: 300px;
+	overflow: auto;
+	background-color:rgb(180, 108, 61);
+	border: 2px solid rgb(28, 132, 246) ;
+	margin:55px 5px 50px 150px;
+	}
+
+div#quinto{
+	width: 800px;
+	height:300px;
+	border: 2px solid rgb(28, 132, 246) ;
+	margin:55px 50px 50px 150px;
+}
+
+div#quini{
+	width: 413px;
+	height: 300px;
+	overflow: auto;
+	background-color:rgb(195, 168, 100);
+	border: 2px solid rgb(28, 132, 246);
+	float: left;
+	margin:55px 50px 50px 20px;
+}
+
+div#sexto{
+	width: 513px;
+	height: 350px;
+	overflow: auto;
+	background-color:rgb(60, 180, 181);
+	border: 2px solid rgb(28, 132, 246) ;
+	margin:4px 50px 50px 0px;
+}
+
+div#septimo{
+	width: 713px;
+	height: 400px;
+	overflow: auto;
+	background-color:rgb(180, 148, 170);
+	border: 2px solid rgb(28, 132, 246) ;
+	margin:55px 50px 50px 150px;
+}
+*/
+nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(164, 166, 149);
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 190px;
+    text-decoration: none;
+}
+
+li a:hover:not(.activo) {
+
+    background-color: white;
+}
+
+.activo {
+	color: rgb(0, 166, 151);
+    background-color:rgb(0, 166, 151);
+}
+
